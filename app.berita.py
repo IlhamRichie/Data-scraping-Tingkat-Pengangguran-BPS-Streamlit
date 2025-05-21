@@ -10,11 +10,11 @@ from wordcloud import WordCloud
 st.set_page_config(page_title="Analisis Artikel", layout="wide")
 
 # --- Header ---
-st.title("📚 Analisis Artikel: Kandungan Garam")
+st.title("📚 Analisis Artikel: Bisnis Karir dan Ekonomi")
 
 # --- Koneksi ke MongoDB ---
 client = MongoClient("mongodb://localhost:27017/")
-db = client["Ginjal&jantung"]
+db = client["FLUENT"]
 collection = db["berita"]
 
 # --- Ambil dan Proses Data ---
