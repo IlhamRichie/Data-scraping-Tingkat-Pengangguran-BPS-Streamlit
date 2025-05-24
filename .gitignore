@@ -1,0 +1,17 @@
+# Lingkungan Virtual
+venv/
+*.venv
+env/
+ENV/
+
+# File Bytecode Python
+*.pyc
+__pycache__/
+
+# File .env (SANGAT PENTING untuk tidak di-commit)
+.env*
+
+# File konfigurasi IDE/OS
+.vscode/
+.idea/
+.DS_Store
